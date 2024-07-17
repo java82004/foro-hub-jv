@@ -71,8 +71,8 @@ Asegúrate de tener las siguientes dependencias en tu archivo `pom.xml`:
 En el archivo application.properties, configura la conexión a tu base de datos MySQL:
 
 ```
-spring.datasource.url=jdbc:mysql://localhost:8080/foro
-spring.datasource.username=root
+spring.datasource.url=jdbc:mysql://localhost:8080/forohub
+spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 spring.jpa.hibernate.ddl-auto=validate
 spring.jpa.show-sql=true
@@ -196,4 +196,17 @@ DELETE /cursos/{id}
 
 ![swagger-ui](https://github.com/user-attachments/assets/9c594f49-a526-4259-b2c0-47709d74c023)
 
-### Gracias por visitar mi sitio.
+## Contribuir
+
+¡Las contribuciones son bienvenidas! Si deseas contribuir, por favor sigue estos pasos:
+
+1.	Haz un fork del repositorio.
+2.	Crea una nueva rama (git checkout -b feature-nueva-funcionalidad).
+3.	Realiza tus cambios y commitea (git commit -am 'Agregar nueva funcionalidad').
+4.	Haz push a la rama (git push origin feature-nueva-funcionalidad).
+5.	Abre un Pull Request para revisión.
+
+¡Gracias por tomarte el tiempo de revisar Librería Alura!
+
+
+Asegúrate de reemplazar `"tu-usuario"` y `"tu-contrasena"` con tus propios datos y credenciales. Además, puedes actualizar cualquier otra información que sea específica para tu proyecto.
